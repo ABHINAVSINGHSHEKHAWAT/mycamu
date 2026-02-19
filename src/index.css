@@ -1,0 +1,396 @@
+/* RESET */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: #f3f4f6;
+  font-family: Inter, sans-serif;
+}
+
+/* ================= LAYOUT ================= */
+
+.layout {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 15px;
+  width: 100%;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background: #f5f6f7;
+  padding: 20px 15px;
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.sidebar-logo img {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.sidebar-search {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 9px 14px;
+  font-size: 14px;
+  color: #374151;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.menu-item:hover {
+  background: #0b5d47;
+  color: white;
+}
+
+.active-menu {
+  background: #0b5d47;
+  color: white;
+}
+
+/* ================= MOBILE SIDEBAR ================= */
+
+.mobile-header {
+  display: none;
+}
+
+.hamburger {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 998;
+}
+
+/* ================= HEADER ================= */
+
+.header-wrapper {
+  margin-bottom: 10px;
+}
+
+.alert-bar {
+  background: #efe3b4;
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.alert-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.alert-text {
+  font-size: 13px;
+  color: #a16207;
+}
+
+.profile-card {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.profile-sub {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* ================= PAGE HEADER ================= */
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0 4px 0;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.page-info {
+  font-size: 13px;
+  color: #111315;
+}
+
+/* ================= QR STRIP ================= */
+
+.qr-strip {
+  background: #efe3b4;
+  padding: 12px 18px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn-outline {
+  background: #e5e7eb;
+  border: 1px solid #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.btn-green {
+  background: #0b5d47;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.btn-select {
+  background: #e5e7eb;
+  border: 1px solid #cbd5e1;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+/* ================= MEALS ================= */
+
+.meals-wrapper {
+  background: #f6f7f8;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.meal-row {
+  display: grid;
+  grid-template-columns: 360px 1fr 200px;
+  padding: 26px 0;
+  border-bottom: 1px solid #b9d8cf;
+  align-items: center;
+}
+
+.meal-row:last-child {
+  border-bottom: none;
+}
+
+.meal-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.meal-icon {
+  width: 70px;
+}
+
+.meal-middle {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.meal-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.badge {
+  background: #ccefe2;
+  color: #0b5d47;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+/* ================= INSTITUTION PAGE ================= */
+
+/* ================= INSTITUTION PAGE ================= */
+
+/* ================= INSTITUTION PAGE ================= */
+
+.institution-wrapper {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.institution-card {
+  background: #a7d1b9;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.institution-image img {
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.institution-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.institution-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* 3 column layout: label | colon | value */
+.institution-row {
+  display: grid;
+  grid-template-columns: 200px 15px 1fr;
+  column-gap: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  align-items: start;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.value {
+  line-height: 1.4;
+}
+
+.status-badge {
+  background: #e5e7eb;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+/* ================= MOBILE RESPONSIVE ================= */
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  .layout {
+    display: block;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    height: 100%;
+    width: 260px;
+    z-index: 999;
+    transition: left 0.3s ease;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .mobile-header {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .meal-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .meal-right {
+    justify-content: flex-start;
+  }
+
+  .qr-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* Institution mobile fix */
+  .institution-card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .institution-image img {
+    width: 180px;
+    height: auto;
+  }
+
+  .institution-name {
+    font-size: 20px;
+  }
+
+  /* Keep 3 column layout but smaller */
+  .institution-row {
+    grid-template-columns: 140px 12px 1fr;
+    font-size: 14px;
+  }
+
+  /* Prevent short values from breaking */
+  .value {
+    white-space: nowrap;
+  }
+
+  /* Allow long text fields to wrap */
+  .value.long-text {
+    white-space: normal;
+  }
+
+}
