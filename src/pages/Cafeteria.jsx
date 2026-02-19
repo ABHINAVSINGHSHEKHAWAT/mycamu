@@ -1,5 +1,5 @@
 import meals from "../data/meals";
-import MealRow from "../components/MealRow";
+import MealRow from "../components/mealRow";
 
 function Cafeteria() {
   return (
