@@ -16,14 +16,14 @@ function Header() {
       {/* PROFILE CARD */}
       <div className="profile-card">
         <img
-          src="/AISHA.webp"
+          src="/amaar.jpeg"
           alt="profile"
           className="profile-avatar"
         />
 
         <div className="profile-info">
           <div className="profile-name">
-            AISHA KHAN
+            Amaar 
           </div>
           <div className="profile-sub">
             Bennett University

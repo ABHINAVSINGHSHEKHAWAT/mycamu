@@ -4,12 +4,12 @@ function MyInstitution() {
       <div className="institution-card">
         {/* LEFT IMAGE */}
         <div className="institution-image">
-          <img src="/AISHA.webp" alt="student" />``
+          <img src="/amaar.jpeg" alt="student" />``
         </div>
 
         {/* RIGHT DETAILS */}
         <div className="institution-details">
-          <h2 className="institution-name">AISHA KHAN</h2>
+          <h2 className="institution-name">Mohammad Ammar</h2>
 
           <div className="institution-row">
             <div className="label">Student status</div>
@@ -21,7 +21,7 @@ function MyInstitution() {
 
           <div className="institution-row">
             <span className="label">Admission No.</span>
-            <span className="value">E22CSEU1606</span>
+            <span className="value">E22CSEU1314</span>
           </div>
 
           <div className="institution-row">
@@ -31,7 +31,7 @@ function MyInstitution() {
 
           <div className="institution-row">
             <span className="label">Roll No.</span>
-            <span className="value">E22CSEU1606</span>
+            <span className="value">E22CSEU1314</span>
           </div>
 
           <div className="institution-row">
