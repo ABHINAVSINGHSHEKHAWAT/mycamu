@@ -4,10 +4,10 @@ const meals = [
     name: "Breakfast",
     time: "07:30 AM - 09:30 AM",
     items: [
-      "Pav Bhaji (140Kcal)",
-      "Egg Bhurji (90Kcal)",
-      "Papaya (89)",
-      "veg daliya (380 Kcal)",
+      "Indori Poha  (140Kcal)",
+      "Green chutney (90Kcal)",
+      "Keenu (89)",
+      "chocos (380 Kcal)",
       "Jam & Bread (302 Kcal)",
       "Milk / Tea / Coffee"
     ],
@@ -18,8 +18,8 @@ const meals = [
     name: "Lunch",
     time: "12:00 PM - 03:00 PM",
     items: [
-      "Egg Curry (90 Kcal)",
-      "Yellow dal(143 Kcal)",
+      "Paneer Kolhapuri (90 Kcal)",
+      "gobhi matar(143 Kcal)",
       "Hyderabadi Dal (120 Kcal)",
       "Sambar (133 Kcal)",
       "Roti (280 Kcal)",
